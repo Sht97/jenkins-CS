@@ -3,7 +3,7 @@ pipeline {
     stages {
        stage('Checkout-git'){
               steps {
-               git poll: true, url: 'https://github.com/tuNickDeGithub/jenkins-CS.git'    
+               git poll: true, url: 'https://github.com/Sht97/jenkins-CS.git'    
               }
        }
         stage('Install Requirements') {
